@@ -1,0 +1,1114 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2025.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="6" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Customers$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>alytrex project.xlsx
+Query=`Customers$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Customer_ID" size="255" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Customers$`" type="V_String" />
+            <Field name="Age" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Customers$`" type="Double" />
+            <Field name="Gender" size="255" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Customers$`" type="V_String" />
+            <Field name="Income" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Customers$`" type="Double" />
+            <Field name="City" size="255" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Customers$`" type="V_String" />
+            <Field name="Credit_Score" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Customers$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="6" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Loans$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>alytrex project.xlsx
+Query=`Loans$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Loan_ID" size="255" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Loans$`" type="V_String" />
+            <Field name="Customer_ID" size="255" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Loans$`" type="V_String" />
+            <Field name="Loan_Amount" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Loans$`" type="Double" />
+            <Field name="Interest_Rate" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Loans$`" type="Double" />
+            <Field name="Tenure_Months" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Loans$`" type="Double" />
+            <Field name="EMI" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Loans$`" type="Double" />
+            <Field name="Loan_Type" size="255" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Loans$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="-6" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Transactions$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>alytrex project.xlsx
+Query=`Transactions$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Customer_ID" size="255" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Transactions$`" type="V_String" />
+            <Field name="Transaction_Date" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Transactions$`" type="Date" />
+            <Field name="Debit_Amount" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Transactions$`" type="Double" />
+            <Field name="Credit_Amount" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Transactions$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="-6" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Defaults$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>alytrex project.xlsx
+Query=`Defaults$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Customer_ID" size="255" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Defaults$`" type="V_String" />
+            <Field name="Default_Status" size="255" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Defaults$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="162" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Customer_ID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Customer_ID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Customer_ID" selected="True" rename="Right_Customer_ID" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="Customer_ID" size="255" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Customers$`" type="V_String" />
+            <Field name="Age" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Customers$`" type="Double" />
+            <Field name="Gender" size="255" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Customers$`" type="V_String" />
+            <Field name="Income" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Customers$`" type="Double" />
+            <Field name="City" size="255" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Customers$`" type="V_String" />
+            <Field name="Credit_Score" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Customers$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="Customer_ID" size="255" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Customers$`" type="V_String" />
+            <Field name="Age" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Customers$`" type="Double" />
+            <Field name="Gender" size="255" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Customers$`" type="V_String" />
+            <Field name="Income" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Customers$`" type="Double" />
+            <Field name="City" size="255" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Customers$`" type="V_String" />
+            <Field name="Credit_Score" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Customers$`" type="Double" />
+            <Field name="Loan_ID" size="255" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Loans$`" type="V_String" />
+            <Field name="Right_Customer_ID" size="255" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Loans$`" type="V_String" />
+            <Field name="Loan_Amount" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Loans$`" type="Double" />
+            <Field name="Interest_Rate" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Loans$`" type="Double" />
+            <Field name="Tenure_Months" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Loans$`" type="Double" />
+            <Field name="EMI" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Loans$`" type="Double" />
+            <Field name="Loan_Type" size="255" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Loans$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="Loan_ID" size="255" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Loans$`" type="V_String" />
+            <Field name="Customer_ID" size="255" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Loans$`" type="V_String" />
+            <Field name="Loan_Amount" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Loans$`" type="Double" />
+            <Field name="Interest_Rate" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Loans$`" type="Double" />
+            <Field name="Tenure_Months" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Loans$`" type="Double" />
+            <Field name="EMI" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Loans$`" type="Double" />
+            <Field name="Loan_Type" size="255" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Loans$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="126" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Customer_ID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Customer_ID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Debit_Amount" selected="True" input="Left_" type="String" size="8192" />
+                <SelectField field="Left_Credit_Amount" selected="True" input="Left_" type="String" size="8192" />
+                <SelectField field="Right_Customer_ID" selected="True" rename="Right_Customer_ID" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="Customer_ID" size="255" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Transactions$`" type="V_String" />
+            <Field name="Transaction_Date" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Transactions$`" type="Date" />
+            <Field name="Debit_Amount" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Transactions$`" type="Double" />
+            <Field name="Credit_Amount" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Transactions$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="Customer_ID" size="255" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Transactions$`" type="V_String" />
+            <Field name="Transaction_Date" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Transactions$`" type="Date" />
+            <Field name="Debit_Amount" size="8192" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Transactions$`" type="String" />
+            <Field name="Credit_Amount" size="8192" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Transactions$`" type="String" />
+            <Field name="Right_Customer_ID" size="255" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Defaults$`" type="V_String" />
+            <Field name="Default_Status" size="255" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Defaults$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="Customer_ID" size="255" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Defaults$`" type="V_String" />
+            <Field name="Default_Status" size="255" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Defaults$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="234" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Customer_ID" action="GroupBy" rename="Customer_ID" />
+            <SummarizeField field="Credit_Score" action="Sum" rename="Sum_Credit_Score" />
+            <SummarizeField field="Interest_Rate" action="Sum" rename="Sum_Interest_Rate" />
+            <SummarizeField field="Income" action="Sum" rename="Sum_Income" />
+            <SummarizeField field="EMI" action="Sum" rename="Sum_EMI" />
+            <SummarizeField field="Loan_Amount" action="Sum" rename="Loan_Amount" />
+            <SummarizeField field="Loan_Type" action="GroupBy" rename="loan type" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Customer_ID" size="255" source="Summarize: GroupBy - Customer_ID" type="V_String" />
+            <Field name="Sum_Credit_Score" source="Summarize: Sum - Credit_Score" type="Double" />
+            <Field name="Sum_Interest_Rate" source="Summarize: Sum - Interest_Rate" type="Double" />
+            <Field name="Sum_Income" source="Summarize: Sum - Income" type="Double" />
+            <Field name="Sum_EMI" source="Summarize: Sum - EMI" type="Double" />
+            <Field name="Loan_Amount" source="Summarize: Sum - Loan_Amount" type="Double" />
+            <Field name="loan type" size="255" source="Summarize: GroupBy - Loan_Type" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="306" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Sum_EMI]/[Sum_Income]" field="debt to income" size="8" type="Double" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[debt to income = [Sum_EMI]/[Sum_Income]
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Customer_ID" size="255" source="Summarize: GroupBy - Customer_ID" type="V_String" />
+            <Field name="Sum_Credit_Score" source="Summarize: Sum - Credit_Score" type="Double" />
+            <Field name="Sum_Interest_Rate" source="Summarize: Sum - Interest_Rate" type="Double" />
+            <Field name="Sum_Income" source="Summarize: Sum - Income" type="Double" />
+            <Field name="Sum_EMI" source="Summarize: Sum - EMI" type="Double" />
+            <Field name="Loan_Amount" source="Summarize: Sum - Loan_Amount" type="Double" />
+            <Field name="loan type" size="255" source="Summarize: GroupBy - Loan_Type" type="V_String" />
+            <Field name="debt to income" source="Formula: [Sum_EMI]/[Sum_Income]" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="522" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [Sum_Credit_Score]&lt;600 THEN &quot;poor&quot; ELSEIF [Sum_Credit_Score]&lt;700 THEN &quot;average&quot; ELSE &quot;good&quot; ENDIF" field="credit score band" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="IF [Sum_Credit_Score]&lt;600 THEN 3 ELSE 0 ENDIF + IF [debt to income]&gt;0.5 THEN 3 ELSE 0 ENDIF&#xA;" field="risk score" size="1073741823" type="V_WString" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>credit score band = IF [Sum_Credit_Score]&lt;600 THEN "poor" ELSEIF [Sum_Credit_Sco...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Customer_ID" size="255" source="Summarize: GroupBy - Customer_ID" type="V_String" />
+            <Field name="Sum_Credit_Score" source="Summarize: Sum - Credit_Score" type="Double" />
+            <Field name="Sum_Interest_Rate" source="Summarize: Sum - Interest_Rate" type="Double" />
+            <Field name="Sum_Income" source="Summarize: Sum - Income" type="Double" />
+            <Field name="Sum_EMI" source="Summarize: Sum - EMI" type="Double" />
+            <Field name="Loan_Amount" source="Summarize: Sum - Loan_Amount" type="Double" />
+            <Field name="loan type" size="255" source="Summarize: GroupBy - Loan_Type" type="V_String" />
+            <Field name="debt to income" source="Formula: [Sum_EMI]/[Sum_Income]" type="Double" />
+            <Field name="credit score band" size="1073741823" source="Formula: IF [Sum_Credit_Score]&lt;600 THEN &quot;poor&quot; ELSEIF [Sum_Credit_Score]&lt;700 THEN &quot;average&quot; ELSE &quot;good&quot; ENDIF" type="V_WString" />
+            <Field name="risk score" size="1073741823" source="Formula: IF [Sum_Credit_Score]&lt;600 THEN 3 ELSE 0 ENDIF + IF [debt to income]&gt;0.5 THEN 3 ELSE 0 ENDIF&#xA;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="414" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="debt to income" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>debt to income - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Customer_ID" size="255" source="Summarize: GroupBy - Customer_ID" type="V_String" />
+            <Field name="Sum_Credit_Score" source="Summarize: Sum - Credit_Score" type="Double" />
+            <Field name="Sum_Interest_Rate" source="Summarize: Sum - Interest_Rate" type="Double" />
+            <Field name="Sum_Income" source="Summarize: Sum - Income" type="Double" />
+            <Field name="Sum_EMI" source="Summarize: Sum - EMI" type="Double" />
+            <Field name="Loan_Amount" source="Summarize: Sum - Loan_Amount" type="Double" />
+            <Field name="loan type" size="255" source="Summarize: GroupBy - Loan_Type" type="V_String" />
+            <Field name="debt to income" source="Formula: [Sum_EMI]/[Sum_Income]" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="270" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Customer_ID" action="GroupBy" rename="Customer_ID" />
+            <SummarizeField field="Default_Status" action="GroupBy" rename="Default_Status" />
+            <SummarizeField field="Debit_Amount" action="Sum" rename="Sum_Debit_Amount" />
+            <SummarizeField field="Credit_Amount" action="Sum" rename="Sum_Credit_Amount" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Customer_ID" size="255" source="Summarize: GroupBy - Customer_ID" type="V_String" />
+            <Field name="Default_Status" size="255" source="Summarize: GroupBy - Default_Status" type="V_String" />
+            <Field name="Sum_Debit_Amount" source="Summarize: Sum - Debit_Amount" type="Double" />
+            <Field name="Sum_Credit_Amount" source="Summarize: Sum - Credit_Amount" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="342" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Sum_Credit_Amount]/[Sum_Debit_Amount]" field="New flow" size="1073741823" type="V_WString" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[New flow = [Sum_Credit_Amount]/[Sum_Debit_Amount]
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Customer_ID" size="255" source="Summarize: GroupBy - Customer_ID" type="V_String" />
+            <Field name="Default_Status" size="255" source="Summarize: GroupBy - Default_Status" type="V_String" />
+            <Field name="Sum_Debit_Amount" source="Summarize: Sum - Debit_Amount" type="Double" />
+            <Field name="Sum_Credit_Amount" source="Summarize: Sum - Credit_Amount" type="Double" />
+            <Field name="New flow" size="1073741823" source="Formula: [Sum_Credit_Amount]/[Sum_Debit_Amount]" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="198" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Debit_Amount" selected="True" type="Double" size="8" />
+            <SelectField field="Credit_Amount" selected="True" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Customer_ID" size="255" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Transactions$`" type="V_String" />
+            <Field name="Transaction_Date" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Transactions$`" type="Date" />
+            <Field name="Debit_Amount" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Transactions$`" type="Double" />
+            <Field name="Credit_Amount" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Transactions$`" type="Double" />
+            <Field name="Right_Customer_ID" size="255" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Defaults$`" type="V_String" />
+            <Field name="Default_Status" size="255" source="File: C:\Users\ASUS\Downloads\alytrex project.xlsx|||`Defaults$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="534" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [Sum_Credit_Amount]&lt;600 THEN &quot;poor&quot; ELSEIF [Sum_Credit_Amount]&lt;51795 THEN &quot;average&quot; ELSE &quot;good&quot; ENDIF" field="credit score" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="IF [Default_Status]=&quot;Yes&quot; THEN 3 ELSE 0 ENDIF + IF [New flow]  THEN 5 ELSE 2 ENDIf" field="risk score" size="1073741823" type="V_WString" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>credit score = IF [Sum_Credit_Amount]&lt;600 THEN "poor" ELSEIF [Sum_Credit_Amount]...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Customer_ID" size="255" source="Summarize: GroupBy - Customer_ID" type="V_String" />
+            <Field name="Default_Status" size="255" source="Summarize: GroupBy - Default_Status" type="V_String" />
+            <Field name="Sum_Debit_Amount" source="Summarize: Sum - Debit_Amount" type="Double" />
+            <Field name="Sum_Credit_Amount" source="Summarize: Sum - Credit_Amount" type="Double" />
+            <Field name="New flow" size="1073741823" source="Formula: [Sum_Credit_Amount]/[Sum_Debit_Amount]" type="V_WString" />
+            <Field name="credit score" size="1073741823" source="Formula: IF [Sum_Credit_Amount]&lt;600 THEN &quot;poor&quot; ELSEIF [Sum_Credit_Amount]&lt;51795 THEN &quot;average&quot; ELSE &quot;good&quot; ENDIF" type="V_WString" />
+            <Field name="risk score" size="1073741823" source="Formula: IF [Default_Status]=&quot;Yes&quot; THEN 3 ELSE 0 ENDIF + IF [New flow]  THEN 5 ELSE 2 ENDIf" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="426" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="Sum_Debit_Amount" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Sum_Debit_Amount - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Customer_ID" size="255" source="Summarize: GroupBy - Customer_ID" type="V_String" />
+            <Field name="Default_Status" size="255" source="Summarize: GroupBy - Default_Status" type="V_String" />
+            <Field name="Sum_Debit_Amount" source="Summarize: Sum - Debit_Amount" type="Double" />
+            <Field name="Sum_Credit_Amount" source="Summarize: Sum - Credit_Amount" type="Double" />
+            <Field name="New flow" size="1073741823" source="Formula: [Sum_Credit_Amount]/[Sum_Debit_Amount]" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="618" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="risk score" action="GroupBy" rename="risk categories" />
+            <SummarizeField field="Customer_ID" action="Count" rename="Count" />
+            <SummarizeField field="Loan_Amount" action="Avg" rename="Avg_Loan_Amount" />
+            <SummarizeField field="Sum_Income" action="Avg" rename="Avg_Income" />
+            <SummarizeField field="loan type" action="GroupBy" rename="loan type" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="risk categories" size="1073741823" source="Summarize: GroupBy - risk score" type="V_WString" />
+            <Field name="Count" source="Summarize: Count - risk score" type="Int64" />
+            <Field name="Avg_Loan_Amount" source="Summarize: Avg - Loan_Amount" type="Double" />
+            <Field name="Avg_Income" source="Summarize: Avg - Sum_Income" type="Double" />
+            <Field name="loan type" size="255" source="Summarize: GroupBy - loan type" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+        <Position x="690" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields>
+            <Field field="loan type" />
+          </GroupFields>
+          <HeaderField field="risk categories" />
+          <DataField field="loan type" />
+          <Methods>
+            <Method method="First" />
+            <Separator>,</Separator>
+            <FieldSize value="2048" />
+          </Methods>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="loan type" size="255" source="CrossTab:Group:First:" type="V_String" />
+            <Field name="0" size="255" source="CrossTab:Header:risk categories:0:First:" type="V_String" />
+            <Field name="3" size="255" source="CrossTab:Header:risk categories:3:First:" type="V_String" />
+            <Field name="6" size="255" source="CrossTab:Header:risk categories:6:First:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerTable.PortfolioComposerTable">
+        <Position x="762" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TableMode>Basic</TableMode>
+          <GroupingFields orderChanged="False">
+            <Field name="loan type" />
+          </GroupingFields>
+          <Width />
+          <ShowHeader value="True" />
+          <ShowBarGraph value="False" />
+          <TableFields orderChanged="False">
+            <Field name="loan type" selected="True" Alignment="Left" />
+            <Field name="0" selected="True" Alignment="Left" />
+            <Field name="3" selected="True" Alignment="Left" />
+            <Field name="6" selected="True" Alignment="Left" />
+            <Field name="*Unknown" selected="True" Alignment="Right" />
+          </TableFields>
+          <TableStyles>
+            <Style Name="Data" Font="Arial" Size="8" TextColor="#000000" BackColor="#ffffff" AltColor="#f0f0f0" RowGroup="1" />
+            <Style Name="Header" Font="Arial" Size="10" TextColor="#000000" BackColor="#dbdbdb" />
+            <Style Name="Borders" Width="1" DataColor="#000000" HeaderColor="#000000" RowBorder="None" BasicColBorder="Default (Use Per Column Setting)" />
+            <Style Name="Table" CellPadding="0" ColumnPadding="0" TableBorder="true" Width="1" BorderColor="#000000" />
+          </TableStyles>
+          <StyleRules />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Basic Table</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="loan type" size="255" source="CrossTab:Group:First:" type="V_String" />
+            <Field name="Table" size="1073741823" source="Report:Table:Basic:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerTablePlugin" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerLayout.PortfolioComposerLayout">
+        <Position x="846" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupingMode>PerRecord</GroupingMode>
+          <PreserveSourceFields value="True" />
+          <Orientation>V</Orientation>
+          <Separator>Breaking</Separator>
+          <Width>100%</Width>
+          <Height />
+          <BorderStyle Enabled="false" Color="#000000" Width="2" />
+          <SeparatorStyle Enabled="false" Color="#ff0000" Width="1" />
+          <Padding>0</Padding>
+          <LayoutFields orderChanged="False">
+            <Field name="Table" selected="True" Alignment="Center" Width="" />
+          </LayoutFields>
+          <MergeIntoTable value="False" />
+          <SectionNameForGroup />
+          <SectionNameForAllRecords />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Vertical Layout
+Section Breaks
+Each Individual Record</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="loan type" size="255" source="CrossTab:Group:First:" type="V_String" />
+            <Field name="Table" size="1073741823" source="Report:Table:Basic:" type="V_WString" />
+            <Field name="Layout" size="1073741823" source="Report:Layout:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerLayoutPlugin" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerRender.PortfolioComposerRender">
+        <Position x="906" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFileType>pdf</TempFileType>
+          <BatchMode value="False" />
+          <DataField>Table</DataField>
+          <Separator>Continuous</Separator>
+          <EmbedDependencies value="False" />
+          <ShowHeader value="True" />
+          <HeaderField>Table</HeaderField>
+          <ShowFooter value="True" />
+          <PdfCefOutput value="True" />
+          <FooterField>Table</FooterField>
+          <OnFirstPage value="False" />
+          <HeaderFooterEdge Distance="0" />
+          <PortraitMode value="True" />
+          <PaperType Width="612" Height="792" Left="36" Right="36" Top="36" Bottom="36" />
+          <DefaultStyles>
+            <Style Name="TextStyle" FontName="Arial" FontSize="14" Justify="Left" ForeColor="#000000" Locale="1033" />
+          </DefaultStyles>
+          <PNGResolution>1</PNGResolution>
+          <PNGLargerAction>squeeze</PNGLargerAction>
+          <PNGLargerThanPageChoice>warning</PNGLargerThanPageChoice>
+          <PNGTransparentBG value="False" />
+          <PNGBackColor value="#ffffff" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerRenderPlugin" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+        <Position x="642" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields>
+            <Field field="Customer_ID" />
+          </GroupFields>
+          <HeaderField field="Default_Status" />
+          <DataField field="risk score" />
+          <Methods>
+            <Method method="First" />
+            <Separator>,</Separator>
+            <FieldSize value="2048" />
+          </Methods>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Customer_ID" size="255" source="CrossTab:Group:First:" type="V_String" />
+            <Field name="No" size="1073741823" source="CrossTab:Header:Default_Status:No:First:" type="V_WString" />
+            <Field name="Yes" size="1073741823" source="CrossTab:Header:Default_Status:Yes:First:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerTable.PortfolioComposerTable">
+        <Position x="714" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TableMode>Basic</TableMode>
+          <GroupingFields orderChanged="False">
+            <Field name="Customer_ID" />
+          </GroupingFields>
+          <Width>100%</Width>
+          <ShowHeader value="True" />
+          <ShowBarGraph value="False" />
+          <TableFields orderChanged="False">
+            <Field name="Customer_ID" selected="True" Alignment="Left" />
+            <Field name="No" selected="True" Alignment="Left" />
+            <Field name="Yes" selected="True" Alignment="Left" />
+            <Field name="*Unknown" selected="True" Alignment="Right" />
+          </TableFields>
+          <TableStyles>
+            <Style Name="Data" Font="Arial" Size="8" TextColor="#000000" BackColor="#ffffff" AltColor="#f0f0f0" RowGroup="1" />
+            <Style Name="Header" Font="Arial" Size="10" TextColor="#000000" BackColor="#dbdbdb" />
+            <Style Name="Borders" Width="1" DataColor="#000000" HeaderColor="#000000" RowBorder="None" BasicColBorder="Default (Use Per Column Setting)" />
+            <Style Name="Table" CellPadding="0" ColumnPadding="0" TableBorder="true" Width="1" BorderColor="#000000" />
+          </TableStyles>
+          <StyleRules />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Basic Table</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Customer_ID" size="255" source="CrossTab:Group:First:" type="V_String" />
+            <Field name="Table" size="1073741823" source="Report:Table:Basic:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerTablePlugin" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerLayout.PortfolioComposerLayout">
+        <Position x="798" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupingMode>PerRecord</GroupingMode>
+          <PreserveSourceFields value="True" />
+          <Orientation>H</Orientation>
+          <Separator>Continuous</Separator>
+          <Width>100%</Width>
+          <Height />
+          <BorderStyle Enabled="true" Color="#000000" Width="2" />
+          <SeparatorStyle Enabled="true" Color="#000000" Width="1" />
+          <Padding>0</Padding>
+          <LayoutFields orderChanged="False">
+            <Field name="Table" selected="True" Alignment="Center" />
+          </LayoutFields>
+          <MergeIntoTable value="False" />
+          <SectionNameForGroup />
+          <SectionNameForAllRecords />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Horizontal Layout
+Each Individual Record</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Customer_ID" size="255" source="CrossTab:Group:First:" type="V_String" />
+            <Field name="Table" size="1073741823" source="Report:Table:Basic:" type="V_WString" />
+            <Field name="Layout" size="1073741823" source="Report:Layout:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerLayoutPlugin" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerRender.PortfolioComposerRender">
+        <Position x="870" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFileType>pdf</TempFileType>
+          <BatchMode value="False" />
+          <DataField>Table</DataField>
+          <Separator>Continuous</Separator>
+          <EmbedDependencies value="False" />
+          <ShowHeader value="True" />
+          <HeaderField>Table</HeaderField>
+          <ShowFooter value="True" />
+          <PdfCefOutput value="True" />
+          <FooterField>Table</FooterField>
+          <OnFirstPage value="False" />
+          <HeaderFooterEdge Distance="0" />
+          <PortraitMode value="True" />
+          <PaperType Width="612" Height="792" Left="36" Right="36" Top="36" Bottom="36" />
+          <DefaultStyles>
+            <Style Name="TextStyle" FontName="Arial" FontSize="14" Justify="Left" ForeColor="#000000" Locale="1033" />
+          </DefaultStyles>
+          <PNGResolution>1</PNGResolution>
+          <PNGLargerAction>squeeze</PNGLargerAction>
+          <PNGLargerThanPageChoice>warning</PNGLargerThanPageChoice>
+          <PNGTransparentBG value="False" />
+          <PNGBackColor value="#ffffff" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerRenderPlugin" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="378" y="30" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Update Value</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.ControlParam.ControlParam">
+        <Position x="18" y="6" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Control Parameter (49)</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="8" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="8" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="9" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="9" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Join" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Join" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="51" Connection="Action" />
+      <Destination ToolID="2" Connection="Action" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="49" Connection="Question" />
+      <Destination ToolID="51" Connection="Question" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <DefaultTZ value="Local" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>ControlParam.Control Parameter (49)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Bank_Risk_Batch_Macro</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="1102b4c4-a7bd-4dda-8439-aa9fda0af778" />
+      <Telemetry>
+        <PreviousWorkflowId value="ec872920-6b53-4247-a692-6cf9f0ee4219" />
+        <OriginWorkflowId value="7feccafb-a090-40e9-8b3e-abf744777b24" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="False" />
+    </Events>
+    <RuntimeProperties>
+      <Actions>
+        <NoCondition>
+          <Type>NoCondition</Type>
+          <Description>(Always Run)</Description>
+          <True>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="51" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="False" />
+              <Destination>2/File</Destination>
+            </Action>
+          </True>
+        </NoCondition>
+      </Actions>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (45)</Name>
+          <ToolId value="45" />
+          <Questions>
+            <Question>
+              <Type>ControlParam</Type>
+              <Description>Control Parameter (49)</Description>
+              <Name>Control Parameter (49)</Name>
+              <ToolId value="49" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImageStd value="39" />
+      <MacroInputs />
+      <MacroOutputs />
+      <BatchMacro>
+        <OutputMode>AllSame</OutputMode>
+        <ControlParams>
+          <ControlParam>
+            <Name>Control Parameter (49)</Name>
+            <Description>Control Parameter (49)</Description>
+          </ControlParam>
+        </ControlParams>
+      </BatchMacro>
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="38" Selected="True" />
+        <Tool ToolId="44" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>
