@@ -43,6 +43,11 @@ risk classification, and automated reporting.
 - Standardized output format
 
 ---
+---
+
+## 🔍 Workflow Overview
+<img width="1912" height="970" alt="image" src="https://github.com/user-attachments/assets/e6c0d49f-c3d0-45d0-aa77-c9f72d8f65ae" />
+
 
 ## 📈 Business Impact
 - Improved risk identification efficiency
