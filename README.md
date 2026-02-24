@@ -8,6 +8,12 @@ risk classification, and automated reporting.
 
 ---
 
+## 🔍 Workflow Overview
+
+![Workflow](workflow bank_risk_macro_segmentation.jpeg)
+
+--
+
 ## 🔧 Tools & Technologies Used
 - Alteryx Designer
 - Batch Macro (.yxmc)
