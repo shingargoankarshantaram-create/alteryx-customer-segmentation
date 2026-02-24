@@ -11,6 +11,7 @@ risk classification, and automated reporting.
 ## 🔍 Workflow Overview
 
 ![Workflow](workflow bank_risk_macro_segmentation.jpeg)
+<img width="1600" height="807" alt="image" src="https://github.com/user-attachments/assets/616ac493-1332-4888-9f48-6e192760c2df" />
 
 --
 
